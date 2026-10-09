@@ -10,29 +10,35 @@ Kelas: PBO - 4 Array dan ArrayList
 
 Deskripsi Program
 
-Program ini merupakan simulasi sistem perbankan sederhana berbasis pemrograman berorientasi objek (OOP) menggunakan bahasa Java. Program terdiri dari beberapa kelas yang saling berkaitan untuk mengelola akun bank dan nasabah:
+# Program Sistem Perbankan Sederhana (Java)
 
-Account.java: Mengelola informasi saldo (balance), transaksi deposit (deposit), serta penarikan tunai (withdraw).
+Proyek ini merupakan implementasi program perbankan berbasis CLI (Command Line Interface) menggunakan bahasa pemrograman **Java**. Program ini mengaplikasikan konsep Pemrograman Berbasis Objek (OOP) serta fitur interaktif menggunakan `Scanner` untuk mengelola data nasabah dan transaksi perbankan.
 
-Customer.java: Mengisi data nasabah seperti nama depan, nama belakang, serta menghubungkan nasabah dengan objek Account.
+---
 
-Bank.java: Mengelola sekumpulan nasabah (array of Customer) serta menghitung jumlah total nasabah yang terdaftar.
+## 🚀 Fitur Utama
 
-Main.java: Kelas utama untuk menjalankan serta menguji seluruh fungsi dan logika program.
+1. **Inisialisasi Data Otomatis**: Secara bawaan telah terdaftar 3 nasabah awal (Budi Ackerman, Asep William, dan Siti Calista) beserta saldo rekening awal.
+2. **Tambah Nasabah Baru**: Menambahkan nasabah baru beserta alokasi saldo awal.
+3. **Tampilkan Daftar Nasabah**: Menampilkan seluruh data nasabah yang terdaftar beserta jumlah saldo terkini.
+4. **Setor Uang (Deposit)**: Menambahkan saldo ke rekening nasabah yang dipilih.
+5. **Tarik Uang (Withdraw)**: Melakukan penarikan saldo dengan validasi kecukupan saldo.
 
-Struktur File
+---
 
+## 📁 Struktur File
+
+```text
 src/
-├── Account.java
-├── Customer.java
-├── Bank.java
-└── Main.java
+├── Account.java   # Mengelola informasi saldo dan transaksi (deposit/withdraw)
+├── Customer.java  # Mengelola informasi profil nasabah
+├── Bank.java      # Mengelola daftar seluruh nasabah
+└── Main.java      # Program utama dengan menu interaktif
 
+## Output Program
 
-Output Pengujian Program
-
-Saat file Main.java dijalankan, output yang dihasilkan adalah sebagai berikut:
-
-Jumlah Nasabah: 2
-Nama Nasabah 1: John Doe
-Saldo Akhir Nasabah 1: Rp 550000.0
+![Hasil Output](menu%201.png)
+![Hasil Output](menu%202.png)
+![Hasil Output](menu%203.png)
+![Hasil Output](menu%204.png)
+![Hasil Output](menu%205.png)
