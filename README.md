@@ -1,44 +1,43 @@
 Tugas Praktikum PBO - Array dan ArrayList
 
-Data Mahasiswa
-
-Nama: Abrisam Satria Nuryono
-
 NIM: F1D02510031
+Nama: Abrisam Satria Nuryono
 
 Kelas: PBO - 4 Array dan ArrayList
 
 Deskripsi Program
+---
+## 📌 Penggunaan Array & ArrayList pada Kode
 
-# Program Sistem Perbankan Sederhana (Java)
-
-Proyek ini merupakan implementasi program perbankan berbasis CLI (Command Line Interface) menggunakan bahasa pemrograman **Java**. Program ini mengaplikasikan konsep Pemrograman Berbasis Objek (OOP) serta fitur interaktif menggunakan `Scanner` untuk mengelola data nasabah dan transaksi perbankan.
+* **Array / ArrayList**: Digunakan untuk menyimpan koleksi objek `Customer` dan `Account` secara dinamis di dalam kelas `Bank`.
+* **Fungsi**: Memungkinkan penambahan data nasabah baru secara fleksibel, penelusuran daftar nasabah, serta pembaruan data transaksi secara terstruktur.
 
 ---
 
-## 🚀 Fitur Utama
+## 📚 Library Tambahan dalam Kode
 
-1. **Inisialisasi Data Otomatis**: Secara bawaan telah terdaftar 3 nasabah awal (Budi Ackerman, Asep William, dan Siti Calista) beserta saldo rekening awal.
-2. **Tambah Nasabah Baru**: Menambahkan nasabah baru beserta alokasi saldo awal.
-3. **Tampilkan Daftar Nasabah**: Menampilkan seluruh data nasabah yang terdaftar beserta jumlah saldo terkini.
-4. **Setor Uang (Deposit)**: Menambahkan saldo ke rekening nasabah yang dipilih.
-5. **Tarik Uang (Withdraw)**: Melakukan penarikan saldo dengan validasi kecukupan saldo.
+* **`java.util.Scanner`**: Digunakan pada `Main.java` untuk membaca input interaktif dari pengguna melalui terminal/CLI.
+* **`java.util.ArrayList`**: Digunakan untuk mengelola koleksi data nasabah yang jumlahnya dapat bertambah secara dinamis.
 
 ---
 
-## 📁 Struktur File
+## 📸 Screenshot Output Program
+
+| Menu / Fitur | Screenshot Output |
+| :--- | :--- |
+| **1. Inisialisasi & Tampil Nasabah** | ![Menu 1](menu%201.png) |
+| **2. Tambah Nasabah Baru** | ![Menu 2](menu%202.png) |
+| **3. Setor Uang (Deposit)** | ![Menu 3](menu%203.png) |
+| **4. Tarik Uang (Withdraw)** | ![Menu 4](menu%204.png) |
+| **5. Keluar Program** | ![Menu 5](menu%205.png) |
+
+---
+
+## 📁 Struktur File Repositori
 
 ```text
 src/
-├── Account.java   # Mengelola informasi saldo dan transaksi (deposit/withdraw)
-├── Customer.java  # Mengelola informasi profil nasabah
-├── Bank.java      # Mengelola daftar seluruh nasabah
-└── Main.java      # Program utama dengan menu interaktif 
-```
-## Output Program
-
-![Hasil Output](menu1.png)
-![Hasil Output](menu2.png)
-![Hasil Output](menu3.png)
-![Hasil Output](menu4.png)
-![Hasil Output](menu5.png)
+├── Account.java   # Mengelola informasi saldo dan transaksi
+├── Customer.java  # Mengelola profil nasabah
+├── Bank.java      # Mengelola daftar nasabah menggunakan Array/ArrayList
+└── Main.java      # Program utama dengan menu interaktif CLI
