@@ -33,12 +33,12 @@ src/
 ├── Account.java   # Mengelola informasi saldo dan transaksi (deposit/withdraw)
 ├── Customer.java  # Mengelola informasi profil nasabah
 ├── Bank.java      # Mengelola daftar seluruh nasabah
-└── Main.java      # Program utama dengan menu interaktif
-
+└── Main.java      # Program utama dengan menu interaktif 
+```
 ## Output Program
 
-![Hasil Output](menu%201.png)
-![Hasil Output](menu%202.png)
-![Hasil Output](menu%203.png)
-![Hasil Output](menu%204.png)
-![Hasil Output](menu%205.png)
+![Hasil Output](menu 1.png)
+![Hasil Output](menu 2.png)
+![Hasil Output](menu 3.png)
+![Hasil Output](menu 4.png)
+![Hasil Output](menu 5.png)
