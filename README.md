@@ -37,8 +37,8 @@ src/
 ```
 ## Output Program
 
-![Hasil Output](menu 1.png)
-![Hasil Output](menu 2.png)
-![Hasil Output](menu 3.png)
-![Hasil Output](menu 4.png)
-![Hasil Output](menu 5.png)
+![Hasil Output](menu1.png)
+![Hasil Output](menu2.png)
+![Hasil Output](menu3.png)
+![Hasil Output](menu4.png)
+![Hasil Output](menu5.png)
